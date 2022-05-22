@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black w-screen h-screen overflow-hidden;
+    font-family: 'Tapestry', 'cursive';
+  }
+
+  input {
+    @apply text-black;
+  }
+
+  .m-icon {
+    @apply md:hidden;
+  }
+
+  .nav-text {
+    @apply hidden md:inline-block;
+  }
+}
